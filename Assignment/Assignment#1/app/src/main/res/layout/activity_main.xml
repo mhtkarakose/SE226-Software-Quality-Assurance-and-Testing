@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mhtkarakose.com.assignment1.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="247dp" />
+
+    <RadioButton
+        android:id="@+id/rd_050"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 0.50₺"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="buttonClick"/>
+
+    <RadioButton
+        android:id="@+id/rd_075"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 0.75₺"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="48dp"
+        android:onClick="buttonClick"/>
+
+    <RadioButton
+        android:id="@+id/rd_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 1₺"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="80dp"
+        android:onClick="buttonClick"/>
+
+    <RadioButton
+        android:id="@+id/rd_125"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 1.25₺"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="48dp"
+        android:onClick="buttonClick"
+        />
+
+    <RadioButton
+        android:id="@+id/rd_150"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 1.50₺"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:onClick="buttonClick"/>
+
+    <RadioButton
+        android:id="@+id/rd_175"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 1.75₺"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="80dp"
+        android:onClick="buttonClick"/>
+
+    <RadioButton
+        android:id="@+id/rd_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item 2₺"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="112dp"
+        android:onClick="buttonClick"/>
+
+    <Button
+        android:id="@+id/btn_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="payment"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="431dp"
+        android:onClick="buttonClick"/>
+
+    <EditText
+        android:id="@+id/txt_input"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="numberSigned"
+        tools:layout_editor_absoluteY="431dp"
+
+        android:hint="Enter the payment amount"
+
+        tools:layout_editor_absoluteX="32dp" />
+
+</android.support.constraint.ConstraintLayout>
